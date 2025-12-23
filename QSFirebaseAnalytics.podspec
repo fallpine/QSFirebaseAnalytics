@@ -9,6 +9,8 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "15.0"
   spec.source       = { :git => "https://github.com/fallpine/QSFirebaseAnalytics.git", :tag => "#{spec.version}" }
   spec.swift_version = '5'
+  # 静态库
+  spec.static_framework = true
   spec.source_files  = "QSFirebaseAnalytics/QSFirebaseAnalytics/Tool/*.{swift}"
   spec.dependency "FirebaseAnalytics"
 end
