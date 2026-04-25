@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "QSFirebaseAnalytics"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "Firebase打点"
   spec.description  = "Firebase打点分析"
   spec.homepage     = "https://github.com/fallpine/QSFirebaseAnalytics"
